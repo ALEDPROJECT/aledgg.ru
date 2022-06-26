@@ -91,6 +91,20 @@
 </h4>
                                 <style>
                                     @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+                                    .css-info{
+                                        color: #fff;
+                                    }
+                                    .css-link{
+                                        display: inline-flex;
+                                        text-decoration: none !important;
+                                        color: #7289DA;
+                                        background-color: rgba(114,137,218,.1);
+                                        border-radius: 3px;
+                                        padding: 0 2px;
+                                        cursor: pointer;
+
+                                    }
+                                    @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
                                     .discord {
                                     position: absolute; /* блок занимает ширину содержимого, max-width её ограничивает */
                                     top: 0.8em; /* прикрепить к верху родителя */
@@ -110,27 +124,64 @@
                                     border-radius: 2px;
                                     cursor: pointer;
                                     justify-content: center;
-                                    padding: 7px 9px;
+                                    padding: 7px 10px;
                                     height: 32px;
                                     text-align: center;
                                     white-space: nowrap;
-                                }
-                                .discord:hover {
-
-                                    transition: 0.2s;
-                                    color: #fff;
-                                    font-family: "Segoe UI", Georgia, Serif;
-                                    background: #1a248f;
-                                }
-                                </style>
-                                <a class="discord" href="https://aledgg.ru/join" target="1">
+                                    }                                    
+                                    .youtube {
+                                        position: absolute; /* блок занимает ширину содержимого, max-width её ограничивает */
+                                        top: 0.8em; /* прикрепить к верху родителя */
+                                        right: 120px;
+                                        transition: 0.2s;
+                                        display: inline-flex;
+                                        font-size: 18px;
+                                        letter-spacing: 0px;
+                                        font-weight: 600;
+                                        line-height: 16px;
+                                        text-decoration: none !important;
+                                        text-transform: none;
+                                        background-color: #800000;
+                                        font-family: "Segoe UI", Georgia, Serif;
+                                        color: #fff;
+                                        border: none;
+                                        border-radius: 2px;
+                                        cursor: pointer;
+                                        justify-content: center;
+                                        padding: 7px 10px;
+                                        height: 32px;
+                                        text-align: center;
+                                        white-space: nowrap;
+                                    }
+                                    
+                                    .youtube:hover {
+                                        transition: 0.2s;
+                                        color: #fff;
+                                        font-family: "Segoe UI", Georgia, Serif;
+                                        background: #650000;
+                                    }
+                                    .discord:hover {
+                                        transition: 0.2s;
+                                        color: #fff;
+                                        font-family: "Segoe UI", Georgia, Serif;
+                                        background: #1a248f;
+                                    }
+                                  </style>
+                                <a class="discord" href="join" target="1">
                                     <font 
                                         style="font-family: 'Quicksand', sans-serif;" 
                                         color="#fff"><img width="18" 
-                                        style="margin-right: 7px; border-radius:50%; display: inline-block;"
+                                        style="margin-right: 7px; display: inline-block;"
                                         src="https://i.imgur.com/YjPbGlu.png"
                                     >Discord </font></a>
-<li>
+                                <a class="youtube" href="youtube" target="1">
+                                    <font 
+                                        style="font-family: 'Quicksand', sans-serif;" 
+                                        color="#fff"><img width="18" 
+                                        style="margin-right: 7px; display: inline-block;"
+                                        src="https://i.imgur.com/Tff1Gcx.png"
+                                    >YouTube </font></a>
+                                <li>
 <ul class="footer-links list-reset">  
 </li>
 <li>
@@ -157,10 +208,36 @@
 </footer>
 
 <div class="container">
-<div class="site-header-inner">
+  <div style="
+  position: relative;
+  justify-content: space-between;
+  align-items: center">
 <div class="brand header-brand">
-<footer class="site-footer">
-<h4 class="hero-title mt-0">
+  <footer class="site-footer">
+    <div class="css-info" style="
+        background: #181818;
+        border-radius: 5px;
+        margin-top: 10px;
+        line-height: 30px;
+        margin-top: -90px;
+        font-size: 18px;
+        font-weight: bolder;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        border: 2px solid #FA1A1A;"
+            >
+            <div class="css-info" style="
+            text-align: center;
+            background: #680b0b;
+            border-radius: 4px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            margin-right: -0.4px;
+            margin-top: -20px;
+            margin-bottom: 15px;
+            padding: 3px;
+            border-bottom: 2px solid #FA1A1A;"
+            >Информация</div>
     <i class="em em-clapper" aria-role="presentation" aria-label=""></i>　•　Фильмы - 
 <a href="films"
 >Смотреть</a>
@@ -187,14 +264,32 @@
 <br>
     <i class="em em-card_file_box" aria-role="presentation" aria-label=""></i>　•　Боты Discord - 
 <a href="discord/bot"
->Перейти</a>
-<br>
-<br>
+>Перейти</a></div>
 </h4>
-<h1>М о я    и г р о в а я    с б о р к а</h1><br>
-<h4>
-    А к е с с у а р ы     25470 руб
-<br>
+
+<div class="css-info" style="
+    background: #181818;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border: 2px solid #FA1A1A;"
+            >
+            <div class="css-info" style="
+            text-align: center;
+            background: #680b0b;
+            border-radius: 4px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            margin-right: -0.4px;
+            margin-top: -20px;
+            margin-bottom: 15px;
+            padding: 3px;
+            border-bottom: 2px solid #FA1A1A;"
+            >Акессуары   ➔   25470 руб</div>
     <i class="em em-three_button_mouse" aria-role="presentation" aria-label=""></i>　•　Мышь RGB - 
 <a href="https://www.mvideo.ru/products/igrovaya-mysh-red-square-ergonomica-rsq-10011-50118389" target="1"
 >Red Square Ergonomica</a> - 1490 руб
@@ -213,10 +308,30 @@
 <br>
     <i class="em em-desktop_computer" aria-role="presentation" aria-label=""></i>　•　Монитор FullHD - 
 <a href="https://www.citilink.ru/product/monitor-samsung-s24f354fhi-23-5-chernyi-ls24f354fhixci-1200387" target="1"
->SAMSUNG S24F354FHI 23.5</a> - 9790 руб
-<br><br>
-    К о м п ь ю т е р     34469 руб
-<br>
+>SAMSUNG S24F354FHI 23.5</a> - 9790 руб</div>
+<div class="css-info" style="
+    background: #181818;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border: 2px solid #FA1A1A;"
+>
+<div class="css-info" style="
+text-align: center;
+background: #680b0b;
+border-radius: 4px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+margin-right: -0.4px;
+margin-top: -20px;
+margin-bottom: 15px;
+padding: 3px;
+border-bottom: 2px solid #FA1A1A;"
+>Компьютер   ➔   34469 руб</div>
     <i class="em em-toolbox" aria-role="presentation" aria-label="TOOLBOX"></i>　•　Корпус Midi-Tower - 
 <a href="https://www.citilink.ru/product/korpus-atx-formula-f-3402-midi-tower-bez-bp-chernyi-1169764/" target="1"
 >ATX FORMULA F-3402</a> - 2870 руб
@@ -251,7 +366,7 @@
 <br>
     <i class="em em-dvd" aria-role="presentation" aria-label="DVD"></i>　•　SSD диск 240GB - 
 <a href="https://www.citilink.ru/product/ssd-nakopitel-a-data-ultimate-su650-asu650ss-240gt-r-240gb-2-5-sata-ii-1091578/" target="1"
->A-DATA SU650</a> - 2790 руб
+>A-DATA SU650</a> - 2790 руб</div>
 <br><br>
 </h4>
 <br><br>
